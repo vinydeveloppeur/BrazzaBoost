@@ -1,40 +1,48 @@
-# Brazza Boost Website
+# 🚀 Brazza Boost – Site Officiel
 
-Ce dépôt contient le code source du site vitrine **Brazza Boost** optimisé pour le branding, l’UX, le SEO et la performance.
+Bienvenue sur le site de **Brazza Boost**, une agence spécialisée dans l’accompagnement des créateurs et entreprises sur **TikTok**.
 
-## 📂 Structure des fichiers
+---
 
-- `index.html` → Page principale du site
-- `style.css` → Feuille de styles (branding, responsive, animations)
-- `script.js` → Scripts JavaScript (menu mobile, effets, compteurs, slider)
-- `README.md` → Documentation du projet
+## 🌟 Nos Services
+1️⃣ **Comptes TikTok monétisés prêts à l’emploi**  
+👉 Génère des revenus rapidement grâce à des comptes fiables et optimisés.  
 
-## 🚀 Fonctionnalités principales
+2️⃣ **Sponsorisation publicitaire TikTok**  
+👉 Boostez votre visibilité avec nos campagnes ciblées.  
 
-- **Branding** : Palette cohérente, typographie *Manrope*, CTA différenciés.
-- **SEO & Accessibilité** : Balises meta Open Graph/Twitter, aria-labels, structure des titres.
-- **UX** : Animations fluides, transitions sur les cartes, menu mobile amélioré.
-- **JS optimisé** : Parallax simplifié, scroll throttle, compteurs animés, slider témoignages.
+✨ Livraison rapide (-1h), paiement sécurisé et accompagnement personnalisé.
 
-## 📦 Installation
+---
 
-1. Télécharger les fichiers du projet
-2. Déposer le contenu sur votre hébergement (Netlify, Vercel, OVH, cPanel…)
-3. Vérifier que `index.html`, `style.css` et `script.js` sont à la racine ou correctement reliés
+## 📂 Structure du projet
+```
+/brazza-boost
+   |-- index.html       # Page principale
+   |-- style.css        # Feuille de style
+   |-- script.js        # Fonctions JS (slider, FAQ, etc.)
+   |-- README.md        # Documentation du projet
+   |-- /images          # Logos, icônes, visuels
+```
 
-## 🛠️ Développement
+---
 
-- Modifier `style.css` pour ajuster les couleurs, marges et typographies.
-- Mettre vos propres images dans `assets/` (ex: remplacer `hero.webp`).
-- Personnaliser les sections (services, témoignages, contact).
+## 🚀 Déploiement
+Pour tester le site en local :
+```bash
+# Cloner le projet
+git clone https://github.com/ton-pseudo/brazza-boost.git
 
-## 🌐 Mise en production
+# Ouvrir index.html dans un navigateur
+```
 
-- Optimiser les images en **WebP** ou **AVIF**.
-- Minifier `style.css` et `script.js` avant publication.
-- Vérifier les balises SEO et ajouter Google Analytics ou Plausible si besoin.
+Pour le mettre en ligne avec **GitHub Pages** :
+1. Aller dans **Settings > Pages**  
+2. Choisir la branche `main` et le dossier `/root`  
+3. Sauvegarder → ton site sera accessible en ligne.  
 
-## 📞 Contact
+---
 
-- WhatsApp : [+242 06 699 50 50](https://wa.me/242066995050)
-- Email : brazzaboost@gmail.com
+## 👨‍💻 Développeur
+Ce site a été réalisé pour **Brazza Boost**.  
+✨ *Ta réussite commence ici !*

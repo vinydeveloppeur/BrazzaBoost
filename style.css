@@ -1,0 +1,176 @@
+/* RESET */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.logo {
+  height: 40px;
+  animation: fadeZoom 1s ease-in-out forwards;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #007bff, #00c3ff);
+  color: white;
+}
+.hero h1 {
+  font-size: 42px;
+}
+.hero h2 {
+  margin: 10px 0 20px;
+  font-size: 22px;
+}
+
+/* BUTTON */
+.btn {
+  background: #fff;
+  color: #007bff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background: #0056b3;
+  color: white;
+}
+.pulse {
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* SERVICES */
+#services {
+  padding: 50px 20px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 250px;
+}
+.price {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* SLIDER TEMOIGNAGES */
+#temoignages {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 600px;
+}
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+}
+.slide {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  transition: opacity 0.8s ease-in-out;
+}
+.slide.active {
+  opacity: 1;
+}
+
+/* COMPTEUR */
+#compteur {
+  text-align: center;
+  padding: 50px;
+  background: #f1f1f1;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* FAQ */
+#faq {
+  padding: 50px 20px;
+}
+.faq-item {
+  margin-bottom: 20px;
+}
+.faq-item h3 {
+  cursor: pointer;
+  color: #007bff;
+}
+
+/* FOOTER */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer .payments img {
+  height: 30px;
+  margin: 0 10px;
+}
+
+/* Retour en haut */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s ease;
+}
+#backToTop:hover {
+  background: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeZoom {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
